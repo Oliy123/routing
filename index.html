@@ -38,8 +38,11 @@
           ],
            routeWhileDragging: true,
            router: L.Routing.mapbox('pk.eyJ1Ijoib2xpeWFkIiwiYSI6ImNrdjdsa24wYzI5dW8ycG1zdGY3Nmdlc2kifQ.8CO7mcebHy1ivmhe25EQDg'),
+           reverseWaypoint:True,
+           showAlternative:true,
            units:'imperial',
            collapsible: true,
+           show:false,
            geocoder: L.Control.Geocoder.photon(),
 
       }).addTo(map);
